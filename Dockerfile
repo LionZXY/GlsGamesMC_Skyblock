@@ -9,4 +9,4 @@ RUN /app/serverinstall_8_142
 
 COPY mods/* /app/mods/
 
-CMD ls /app/mods
+CMD /app/start.sh

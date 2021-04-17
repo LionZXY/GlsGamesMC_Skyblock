@@ -1,6 +1,6 @@
 services:
   mc_skyblock:
-    image: glitchless/gli_mc_skyblock:1
+    image: glitchless/gli_mc_skyblock:2
     ports:
       - "25568:25565"
     environment:
