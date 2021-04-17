@@ -1,0 +1,13 @@
+services:
+  mc_skyblock:
+    image: glitchless/gli_mc_skyblock:1
+    ports:
+      - "25568:25565"
+    environment:
+      MC_RAM: "16G"
+    volumes:
+      - ./world:/app/world
+      - ./logs:/app/logs
+      - ./backups:/app/backups
+      - ./config/telegrambridge.cfg:/app/config/telegrambridge.cfg
+      - ./config/glitchlessauth.cfg:/app/config/glitchlessauth.cfg
