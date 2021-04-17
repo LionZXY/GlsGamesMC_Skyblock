@@ -1,6 +1,7 @@
 services:
   mc_skyblock:
-    image: glitchless/gli_mc_skyblock:2
+    image: glitchless/gli_mc_skyblock:3
+    restart: unless-stopped
     ports:
       - "25568:25565"
     environment:

@@ -1,4 +1,5 @@
 #!/bin/sh
+
 if ! grep -q "eula=true" eula.txt; then
   echo "eula=true" > eula.txt
 fi
